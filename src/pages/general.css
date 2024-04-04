@@ -1,0 +1,24 @@
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: rgb(246,246,246);
+}
+  * {
+    box-sizing:border-box;
+}
+header {
+    width: 100%;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

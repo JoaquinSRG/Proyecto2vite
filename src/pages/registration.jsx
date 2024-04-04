@@ -9,7 +9,7 @@ export default function Registration({ cambiarVista }) {
         <nav className="nav">
           <ul className="nav_menu">
             <li className="menu_logo">
-              <a href="#">
+            <a className="link" onClick={() => cambiarVista("home")}>
                 <img
                   class="img"
                   src={logo}
@@ -18,12 +18,12 @@ export default function Registration({ cambiarVista }) {
               </a>
             </li>
             <li className="list_item">
-              <a class="link" href="/">
+            <a className="link" onClick={() => cambiarVista("home")}>
                 Inicio
               </a>
             </li>
             <li className="list_item">
-              <a className="link" href="./html/login.html">
+            <a className="link" onClick={() => cambiarVista("login")}>
                 Login
               </a>
             </li>
@@ -36,21 +36,21 @@ export default function Registration({ cambiarVista }) {
         </nav>
       </header>
       <body>
-        <h2>Registro de Usuario</h2>
-        <form>
-          <label for="nombres">Nombres:</label>
-          <input type="text" id="nombres" name="nombres" required></input>
+        <h2 className="h2-registro">Registro de Usuario</h2>
+        <form className="form-registro">
+          <label className="label-registro" for="nombres">Nombres:</label>
+          <input className="input-registro" type="text" id="nombres" name="nombres" required></input>
           <br></br>
-          <label for="apellidos">Apellidos:</label>
-          <input type="text" id="apellidos" name="apellidos" required></input>
+          <label className="label-registro" for="apellidos">Apellidos:</label>
+          <input className="input-registro" type="text" id="apellidos" name="apellidos" required></input>
           <br></br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required></input>
+          <label className="label-registro" for="email">Email:</label>
+          <input className="input-registro" type="email" id="email" name="email" required></input>
           <br></br>
-          <label for="password">Contraseña:</label>
-          <input type="password" id="password" name="password" required></input>
+          <label className="label-registro" for="password">Contraseña:</label>
+          <input className="input-registro" type="password" id="password" name="password" required></input>
           <br></br>
-          <button onClick={() => cambiarVista("registrar")}>
+          <button className="button-registro" onClick={() => cambiarVista("registrar")}>
             Ir a Registrar
           </button>
         </form>

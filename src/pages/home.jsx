@@ -4,6 +4,7 @@ import iconoMatematicas from "../media/img_baner-matematicas.png";
 import iconoHistoria from "../media/img_baner-historia.png";
 
 import "../pages/home.css";
+import "../pages/general.css";
 
 function Homepage({ cambiarVista }) {
   return (
@@ -44,7 +45,7 @@ function Homepage({ cambiarVista }) {
               </a>
             </li>
             <li className="list_item">
-              <a className="link" href="./html/login.html">
+            <a className="link" onClick={() => cambiarVista("login")}>
                 Login
               </a>
             </li>

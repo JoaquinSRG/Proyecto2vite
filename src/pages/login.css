@@ -1,0 +1,91 @@
+.body-login {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+.div_formulario {
+    margin-top: 80px;
+    background-color:#ffffff;
+    width: 400px;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+    border-radius: 0.6rem;
+}
+
+.titulo {
+    padding: 20px;
+}
+
+.formulario .header {
+    text-align: center;
+}
+
+.imagen {
+    width: 50%;
+    margin: -50px -10px;
+}
+
+.lista-contenido {
+    padding: 10px 20px 0px 20px;
+    list-style: none;
+}
+
+.entrada {
+    padding: 5px;
+}
+.entrada .etiqueta {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.input {
+    font-size: large;
+    margin-top: 10px;
+    height: 45px;
+    padding: 5px;
+    width: 340px;
+}
+
+.restablecerContrasena {
+    text-align: right;
+    padding: 10px;
+}
+
+.contenedor_boton {
+    text-align: center;
+}
+
+.boton {
+    width: 60%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+    background-color: #215a6d;
+    color: rgb(225, 235, 243);
+    font-size: large;
+    font-weight: bold;
+}
+.boton:hover {
+    background-color: #2b7188;
+}
+
+.contenedor_restablecerContrasena {
+    text-align: right;
+    padding: 10px 5px;
+}
+
+.contenedor_sinCuenta {
+    text-align: center;
+    padding: 10px;
+}
+
+.contenedor_sinCuenta  a{
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: blue;
+}
