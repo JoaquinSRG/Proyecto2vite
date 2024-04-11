@@ -45,7 +45,7 @@ function Homepage({ cambiarVista }) {
               </a>
             </li>
             <li className="list_item">
-            <a className="link" onClick={() => cambiarVista("login")}>
+              <a className="link" onClick={() => cambiarVista("login")}>
                 Login
               </a>
             </li>
@@ -82,7 +82,7 @@ function Homepage({ cambiarVista }) {
             </a>
           </div>
           <div className="div_tema">
-            <a className="link_tema" href="./html/paginahistoria.html">
+            <a className="link_tema" onClick={() => cambiarVista("history")}>
               <h3 className="titulo">Historia</h3>
               <img src={iconoHistoria} alt="" />
             </a>

@@ -3,6 +3,7 @@ import Registration from "./pages/registration";
 import Homepage from "./pages/home";
 import Login from "./pages/login";
 import Editprofile from "./pages/editprofile";
+import History from "./pages/history";
 
 function App() {
   // Manejo de estados para interactivdad entre paginas
@@ -23,6 +24,7 @@ function App() {
       )}
       {vistaActual === "home" && <Homepage cambiarVista={cambiarVista} />}
       {vistaActual === "login" && <Login cambiarVista={cambiarVista} />}
+      {vistaActual === "history" && <History cambiarVista={cambiarVista} />}
     </div>
   );
 }

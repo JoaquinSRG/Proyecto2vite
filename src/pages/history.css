@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0 auto;
+  max-width: 1500px;
+  text-align: justify;
+  padding: 10px;
+}
+
+p:first-letter {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.video-container {
+  max-width: 560px; /* Adjust this value as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 19%; /* 16:9 aspect ratio */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  color: #666;
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0 auto;
+  max-width: 1500px;
+  text-align: justify;
+  padding: 10px;
+}

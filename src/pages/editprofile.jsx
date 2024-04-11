@@ -1,6 +1,6 @@
 import logo from "../media/logo.png";
 
-export default function Editprofile() {
+export default function Editprofile({ cambiarVista }) {
   return (
     <>
       <header>
