@@ -76,7 +76,7 @@ function Homepage({ cambiarVista }) {
         </div>
         <div className="div_temas">
           <div className="div_tema">
-            <a className="link_tema" href="./html/paginamatematicas">
+            <a className="link_tema" onClick={() => cambiarVista("mathematics")}>
               <h3 className="titulo">Matematicas</h3>
               <img src={iconoMatematicas} alt="" />
             </a>

@@ -37,9 +37,9 @@ export default function History({ cambiarVista }) {
         </nav>
       </header>
       <body class="content">
-        <h1>Historia global</h1>
+        <h1 className="titulo_historia">Historia global</h1>
         <div className="box">
-          <p>
+          <p className="parrafo_historia">
             La historian. es la narración de los sucesos del pasado;
             generalmente los de la humanidad, aunque, también puede no estar
             centrada en el humano.n.​ Hay quien más breve y concisamente afirma
@@ -67,8 +67,8 @@ export default function History({ cambiarVista }) {
           </p>
           <img class="img" src={musa} alt="Musa de la historia" />
         </div>
-        <h1>Definicion</h1>
-        <p>
+        <h1 className="titulo_historia">Definicion</h1>
+        <p className="parrafo_historia">
           Se llama «historia» al pasado mismo, e incluso puede hablarse de una
           «historia natural» en que la humanidad no estaba presente,[cita
           requerida] que se utilizaba en oposición a la historia social, para
@@ -90,8 +90,8 @@ export default function History({ cambiarVista }) {
           al tiempo y a su cronología, y por lo tanto tener historia.[cita
           requerida]{" "}
         </p>
-        <h1>Etimologia</h1>
-        <p>
+        <h1 className="titulo_historia">Etimologia</h1>
+        <p className="parrafo_historia">
           La palabra historia deriva del griego ἱστορία (léase historia,
           traducible por «investigación» o «información», conocimiento adquirido
           por investigación), del verbo ἱστορεῖν («investigar»). De allí pasó al

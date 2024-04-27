@@ -3,7 +3,7 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
-  width: 300px;
+  width: 90%;
   margin: 0 auto;
   border: 1px solid #ccc;
 }
@@ -48,3 +48,26 @@
 .button-registro:focus {
   outline: none;
 }
+
+
+/* Tablet */
+@media only screen and (min-width: 400px) {
+  .form-registro {
+    width: 70%;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 500px) {
+  .form-registro {
+    width: 50%;
+  }
+}
+
+/* Escritorio */
+@media only screen and (min-width: 1000px){
+  .form-registro {
+    width: 20%;
+  }
+}
+
