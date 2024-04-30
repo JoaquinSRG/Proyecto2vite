@@ -17,12 +17,8 @@ function App() {
   return (
     // Switch para interactividad de la pagina
     <div>
-      {vistaActual === "editprofile" && (
-        <Editprofile cambiarVista={cambiarVista} />
-      )}
-      {vistaActual === "registrar" && (
-        <Registration cambiarVista={cambiarVista} />
-      )}
+      {vistaActual === "editprofile" && (<Editprofile cambiarVista={cambiarVista} />)}
+      {vistaActual === "registrar" && (<Registration cambiarVista={cambiarVista} />)}
       {vistaActual === "home" && <Homepage cambiarVista={cambiarVista} />}
       {vistaActual === "login" && <Login cambiarVista={cambiarVista} />}
       {vistaActual === "history" && <History cambiarVista={cambiarVista} />}

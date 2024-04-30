@@ -1,55 +1,98 @@
-.content {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
+/*BODY*/
+main {
+    display: block;
+    text-align: center;
+}
+.baner_matematicas {
+    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 60%;
 }
 
-.titulo_historia {
-  color: #333;
-  font-size: 36px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  letter-spacing: 2px;
+.baner_matematicas .img_baner-matematicas {
+    width: 100%;
+    border-radius: 1rem;
 }
 
-.parrafo_historia{
-  color: #666;
-  font-size: 18px;
-  line-height: 1.8;
-  margin: 0 auto;
-  max-width: 1500px;
-  text-align: justify;
-  padding: 10px;
+.baner_matematicas .div_titulo-matematicas {
+    width: 70%;
+    background-color: rgb(248 247 246);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    transform: translate(-50%, -50%);
 }
 
-.parrafo_historia:first-letter {
-  font-size: 24px;
-  font-weight: bold;
+.baner_matematicas .titulo-matematicas {
+    margin: 0;
+    padding: 1.2vw;
+    font-size: 3.5vw;
+    font-weight: lighter;
 }
 
-.video-container {
-  max-width: 560px; /* Adjust this value as needed */
-  margin: 0 auto; /* Center the container horizontally */
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 19%; /* 16:9 aspect ratio */
+.baner_matematicas .parrafo-cita {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.4vw;
+    font-weight: lighter;
 }
 
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+.div_secciones {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0.1vw;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
 }
 
-.box {
-  display: flex;
-  color: #666;
-  font-size: 18px;
-  line-height: 1.8;
-  margin: 0 auto;
-  max-width: 1500px;
-  text-align: justify;
-  padding: 10px;
+:hover.div_secciones {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+}
+.div_secciones .titulo-matematicas {
+    margin: 2vw;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+.div_secciones img {
+    padding: 1vh;
+    width: 100%;
+}
+
+.div_secciones .link_seccion {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+  /* Escritorio */
+@media only screen and (min-width: 770px) {
+    .div_secciones {
+        width: 30%;
+        margin: 20px;
+    }
+    .div_secciones .link_seccion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_secciones .titulo-matematicas {
+        font-size: 2vw;
+    }
+    .div_secciones img {
+        padding: 3vh;
+        width: 30%;
+    }
 }
